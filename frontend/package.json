@@ -1,0 +1,15 @@
+{
+  "name": "stock-reposicion-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx serve -s build -l 3000",
+    "build": "npx create-react-app build-temp && rm -rf build && mv build-temp build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0",
+    "serve": "^14.2.0"
+  }
+}
